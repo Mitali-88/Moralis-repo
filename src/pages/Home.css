@@ -73,3 +73,8 @@
     width: 98%;
     border-radius: 10px;
 }
+.xdcStyle{
+    border-radius: 40%;
+    width: 40px;
+    height: 40px;
+}

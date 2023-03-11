@@ -3,6 +3,7 @@ import './TweetInFeed.css';
 import golf from "../images/golf.png";
 import canoe from "../images/canoe.png";
 import {defaultImgs} from "../defaultimgs";
+import xdcIcon from "../images/xdcIcon.png";
 import {Icon} from "web3uikit";
 
 const TweetInFeed = () => {
@@ -29,7 +30,7 @@ const TweetInFeed = () => {
     <Icon fill="#3f3f3f" size={20} svg="star"></Icon>
   </div>
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="matic"></Icon>
+  <img src ={xdcIcon} className= "xdcStyles"></img>
   </div>
 </div>
     </div>  
@@ -53,7 +54,7 @@ const TweetInFeed = () => {
     <Icon fill="#3f3f3f" size={20} svg="star"></Icon>
   </div>
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="matic"></Icon>
+  <img src ={xdcIcon} className= "xdcStyles"></img>
   </div>
 </div>
     </div>  
@@ -77,7 +78,7 @@ const TweetInFeed = () => {
     <Icon fill="#3f3f3f" size={20} svg="star"></Icon>
   </div>
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="matic"></Icon>
+  <img src ={xdcIcon} className= "xdcStyles"></img>
   </div>
 </div>
     </div>  

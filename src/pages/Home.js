@@ -2,6 +2,8 @@ import React from "react";
 import "./Home.css";
 import { defaultImgs } from "../defaultimgs";
 import { TextArea, Icon } from "web3uikit";
+import xdcIcon from "../images/xdcIcon.png";
+
 import { useState, useRef} from "react";
 import TweetInFeed from "../components/TweetInFeed";
 const Home = () => {
@@ -46,8 +48,10 @@ const Home = () => {
               </div>
               <div className="tweetOptions">
                 <div className="tweet">Tweet</div>
-                <div className="tweet" style={{ backgroundColor: "#8247e5" }}>
-                  <Icon fill="#ffffff" size={20} svg="matic" />
+                <div className="xdcStyle" >
+                {/*  */}
+                <img src ={xdcIcon} className= "xdcStyle"></img>
+                
                 </div>
               </div>
             </div>
