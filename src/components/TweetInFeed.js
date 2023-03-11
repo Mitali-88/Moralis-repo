@@ -24,10 +24,10 @@ const TweetInFeed = () => {
   </div>
 <div className="interactions">
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="messageCircle"></Icon>
+    <Icon fill="#ffffff" size={20} svg="messageCircle"></Icon>
   </div>
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="star"></Icon>
+    <Icon fill="#ffffff" size={20} svg="star"></Icon>
   </div>
   <div className="interactioNums">
   <img src ={xdcIcon} className= "xdcStyles"></img>
@@ -48,10 +48,10 @@ const TweetInFeed = () => {
   </div>
 <div className="interactions">
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="messageCircle"></Icon>
+    <Icon fill="#ffffff" size={20} svg="messageCircle"></Icon>
   </div>
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="star"></Icon>
+    <Icon fill="#ffffff" size={20} svg="star"></Icon>
   </div>
   <div className="interactioNums">
   <img src ={xdcIcon} className= "xdcStyles"></img>
@@ -72,10 +72,10 @@ const TweetInFeed = () => {
   </div>
 <div className="interactions">
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="messageCircle"></Icon>
+    <Icon fill="#ffffff" size={20} svg="messageCircle"></Icon>
   </div>
   <div className="interactioNums">
-    <Icon fill="#3f3f3f" size={20} svg="star"></Icon>
+    <Icon fill="#ffffff" size={20} svg="star"></Icon>
   </div>
   <div className="interactioNums">
   <img src ={xdcIcon} className= "xdcStyles"></img>
