@@ -1,7 +1,7 @@
 import React from "react";
 import './Rightbar.css';
-import spaceshooter from "../images/spaceshooter.jpeg";
-import netflix from "../images/netflix.jpeg";
+import explorerImage from "../images/explorerImage.png";
+import rpcImage from "../images/rpcImage.png";
 import academy from "../images/academy.png";
 import youtube from "../images/youtube.png";
 import js from "../images/js.png";
@@ -11,14 +11,14 @@ import { Input } from "web3uikit";
 const Rightbar = () => {
   const trends = [
     {
-      img: spaceshooter,
-      text: "Learn how to build a Web3 FPS game using unity...",
-      link: "https://moralis.io/moralis-projects-learn-to-build-a-web3-space-fps-game/",
+      img: explorerImage,
+      text: "BlocksScan Explorer for XDC Network | Demo video BlocksScan XDC Network Explorer ...",
+      link: "https://www.youtube.com/watch?v=kYkDWIgxNZw",
     },
     {
-      img: netflix,
-      text: "The fisrt Moralis Project! Let's Netflix and chill...",
-      link: "https://moralis.io/moralis-projects-learn-to-build-a-web3-netflix-clone/",
+      img: rpcImage,
+      text: "XDCRPC - Decentralized RPC Service for XDC Network ...",
+      link: "https://www.youtube.com/watch?v=E1yJxhnAqNU",
     },
     {
       img: academy,
